@@ -1,0 +1,42 @@
+# Comandos terminal utilizados en la práctica Spark 5.2
+
+# 1. Comprobar versión de Python
+python3 --version
+
+# 2. Instalar matplotlib (para visualización en pandas)
+pip install matplotlib
+
+# 3. Instalar setuptools (necesario para algunos entornos)
+pip install setuptools
+
+# 4. Comprobar versión de setuptools y pip
+pip show setuptools
+pip show pip
+
+# 5. Crear distutils falso (para Python 3.12+)
+mkdir -p ~/fake-distutils/distutils
+touch ~/fake-distutils/distutils/__init__.py
+
+# 6. Exportar PYTHONPATH para que Spark encuentre distutils
+export PYTHONPATH=$PYTHONPATH:~/fake-distutils
+
+# 7. Exportar Python correcto para PySpark
+export PYSPARK_PYTHON=$(which python3)
+
+# 8. Ejecutar scripts de Spark
+spark-submit table_data_frame.py
+spark-submit native_queries.py
+spark-submit sql_queries.py
+spark-submit names.py
+spark-submit sales.py
+spark-submit user_defined_function.py
+spark-submit pandas_stats.py
+spark-submit movies.py
+
+# 9. Instalar distutils con apt (si estuviera disponible)
+# sudo apt-get install python3-distutils
+# sudo apt-get install python3.12-distutils
+# (NO FUNCIONÓ en tu caso, pero se deja referencia)
+
+# 10. Instalar matplotlib correctamente (corrección de typo)
+pip install matplotlib

@@ -1,0 +1,27 @@
+[
+    {"Nombre": "Carlos", "Edad": 25, "Ciudad": "Valencia", "Mayor30": false},
+    {"Nombre": "Laura", "Edad": 34, "Ciudad": "Madrid", "Mayor30": true},
+    {"Nombre": "Luis", "Edad": 66, "Ciudad": "Sevilla", "Mayor30": true},
+    {"Nombre": "María", "Edad": 44, "Ciudad": "Barcelona", "Mayor30": true},
+    {"Nombre": "Andrés", "Edad": 31, "Ciudad": "Granada", "Mayor30": true},
+    {"Nombre": "Beatriz", "Edad": 28, "Ciudad": "Bilbao", "Mayor30": false},
+    {"Nombre": "Diego", "Edad": 37, "Ciudad": "Málaga", "Mayor30": true},
+    {"Nombre": "Elena", "Edad": 23, "Ciudad": "Zaragoza", "Mayor30": false},
+    {"Nombre": "Francisco", "Edad": 45, "Ciudad": "Valencia", "Mayor30": true},
+    {"Nombre": "Gabriela", "Edad": 52, "Ciudad": "Madrid", "Mayor30": true},
+    {"Nombre": "Hugo", "Edad": 19, "Ciudad": "Toledo", "Mayor30": false},
+    {"Nombre": "Isabel", "Edad": 33, "Ciudad": "Murcia", "Mayor30": true},
+    {"Nombre": "Javier", "Edad": 26, "Ciudad": "Pamplona", "Mayor30": false},
+    {"Nombre": "Karen", "Edad": 41, "Ciudad": "Valladolid", "Mayor30": true},
+    {"Nombre": "Leo", "Edad": 39, "Ciudad": "León", "Mayor30": true},
+    {"Nombre": "Marta", "Edad": 22, "Ciudad": "Santander", "Mayor30": false},
+    {"Nombre": "Nicolás", "Edad": 55, "Ciudad": "Alicante", "Mayor30": true},
+    {"Nombre": "Olga", "Edad": 30, "Ciudad": "Burgos", "Mayor30": false},
+    {"Nombre": "Pedro", "Edad": 48, "Ciudad": "Córdoba", "Mayor30": true},
+    {"Nombre": "Raquel", "Edad": 36, "Ciudad": "Almería", "Mayor30": true},
+    {"Nombre": "Sergio", "Edad": 24, "Ciudad": "Girona", "Mayor30": false},
+    {"Nombre": "Teresa", "Edad": 62, "Ciudad": "Tarragona", "Mayor30": true},
+    {"Nombre": "Ulises", "Edad": 27, "Ciudad": "Logroño", "Mayor30": false},
+    {"Nombre": "Vanesa", "Edad": 43, "Ciudad": "Oviedo", "Mayor30": true}
+  ]
+  
